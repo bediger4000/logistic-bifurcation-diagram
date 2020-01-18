@@ -6,6 +6,11 @@ Generate an image of the bifurcation diagram of the logistic equation
 x1 = r * x0 * (1 - x0)
 ```
 
+This is about as cheap and dirty as I could get.
+I use [gnuplot](http://www.gnuplot.info/) to draw the image,
+I didn't even bother to have the Go image package involved.
+My program outputs text representations of floating point numbers.
+
 ## Algorithm
 
 0. For values of r from 2.8 to 4.0 (step 0.0002):
