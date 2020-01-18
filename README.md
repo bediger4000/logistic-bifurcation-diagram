@@ -11,6 +11,8 @@ I use [gnuplot](http://www.gnuplot.info/) to draw the image,
 I didn't even bother to have the Go image package involved.
 My program outputs text representations of floating point numbers.
 
+![bifuration diagram](example.png?raw=true)
+
 ## Algorithm
 
 0. For values of r from 2.8 to 4.0 (step 0.0002):
