@@ -1,0 +1,4 @@
+unset key
+set term png size 1000,750
+set out 'bifurcation.png'
+plot 'dat2' with dot
